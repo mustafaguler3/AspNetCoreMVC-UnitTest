@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace UdemyRealWorldUnitTest.Web.Repositories
+namespace RealWorldUnitTest.Web.Repositories
 {
     public interface IRepository<TEntity> where TEntity : class
     {

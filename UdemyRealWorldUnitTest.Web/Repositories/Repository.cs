@@ -1,17 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using UdemyRealWorldUnitTest.Web.Models.Context;
+using RealWorldUnitTest.Web.Models.Context;
 
-namespace UdemyRealWorldUnitTest.Web.Repositories
+namespace RealWorldUnitTest.Web.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
 
-        private readonly UdemyUnitTestDbContext _context;
+        private readonly UnitTestDbContext _context;
         private readonly DbSet<TEntity> _dbSet;
 
-        public Repository(UdemyUnitTestDbContext context, DbSet<TEntity> dbSet)
+        public Repository(UnitTestDbContext context, DbSet<TEntity> dbSet)
         {
             _context = context;
             _dbSet = _context.Set<TEntity>();

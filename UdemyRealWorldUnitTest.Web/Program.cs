@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UdemyRealWorldUnitTest.Web
+namespace RealWorldUnitTest.Web
 {
     public class Program
     {

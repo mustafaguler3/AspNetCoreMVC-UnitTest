@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using UdemyRealWorldUnitTest.Web.Models;
-using UdemyRealWorldUnitTest.Web.Models.Context;
-using UdemyRealWorldUnitTest.Web.Repositories;
+using RealWorldUnitTest.Web.Models;
+using RealWorldUnitTest.Web.Models.Context;
+using RealWorldUnitTest.Web.Repositories;
 
-namespace UdemyRealWorldUnitTest.Web.Controllers
+namespace RealWorldUnitTest.Web.Controllers
 {
     public class ProductsController : Controller
     {

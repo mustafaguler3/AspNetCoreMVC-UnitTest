@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRealWorldUnitTest.Web", "UdemyRealWorldUnitTest.Web\UdemyRealWorldUnitTest.Web.csproj", "{F5936C80-DDC0-43BF-9E1E-69921781638C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldUnitTest.Web", "UdemyRealWorldUnitTest.Web\RealWorldUnitTest.Web.csproj", "{F5936C80-DDC0-43BF-9E1E-69921781638C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyRealWorldUnitTest.Test", "UdemyRealWorldUnitTest.Test\UdemyRealWorldUnitTest.Test.csproj", "{6BCFD9CF-B6C1-4ACD-918C-F0C658AF44AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealWorldUnitTest.Test", "UdemyRealWorldUnitTest.Test\RealWorldUnitTest.Test.csproj", "{6BCFD9CF-B6C1-4ACD-918C-F0C658AF44AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

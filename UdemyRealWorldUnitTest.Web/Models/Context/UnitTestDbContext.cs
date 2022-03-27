@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace UdemyRealWorldUnitTest.Web.Models.Context
+namespace RealWorldUnitTest.Web.Models.Context
 {
-    public class UdemyUnitTestDbContext : DbContext
+    public class UnitTestDbContext : DbContext
     {
-        public UdemyUnitTestDbContext()
+        public UnitTestDbContext()
         {
 
         }
 
-        public UdemyUnitTestDbContext(DbContextOptions<UdemyUnitTestDbContext> options):base(options)
+        public UnitTestDbContext(DbContextOptions<UnitTestDbContext> options):base(options)
         {
 
         }

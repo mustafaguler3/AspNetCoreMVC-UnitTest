@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\UdemyRealWorldUnitTest.Web\UdemyRealWorldUnitTest.Web.csproj" />
+    <ProjectReference Include="..\UdemyRealWorldUnitTest.Web\RealWorldUnitTest.Web.csproj" />
   </ItemGroup>
 
 </Project>

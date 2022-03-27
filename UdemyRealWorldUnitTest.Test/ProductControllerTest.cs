@@ -5,12 +5,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UdemyRealWorldUnitTest.Web.Controllers;
-using UdemyRealWorldUnitTest.Web.Models;
-using UdemyRealWorldUnitTest.Web.Repositories;
+using RealWorldUnitTest.Web.Controllers;
+using RealWorldUnitTest.Web.Models;
+using RealWorldUnitTest.Web.Repositories;
 using Xunit;
 
-namespace UdemyRealWorldUnitTest.Test
+namespace RealWorldUnitTest.Test
 {
     public class ProductControllerTest
     {

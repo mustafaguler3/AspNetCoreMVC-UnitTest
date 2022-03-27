@@ -9,10 +9,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using UdemyRealWorldUnitTest.Web.Models.Context;
-using UdemyRealWorldUnitTest.Web.Repositories;
+using RealWorldUnitTest.Web.Models.Context;
+using RealWorldUnitTest.Web.Repositories;
 
-namespace UdemyRealWorldUnitTest.Web
+namespace RealWorldUnitTest.Web
 {
     public class Startup
     {
@@ -29,7 +29,7 @@ namespace UdemyRealWorldUnitTest.Web
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
-            services.AddDbContext<UdemyUnitTestDbContext>(options =>
+            services.AddDbContext<UnitTestDbContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("SqlServer"));
             });

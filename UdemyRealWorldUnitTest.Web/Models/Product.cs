@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace UdemyRealWorldUnitTest.Web.Models
+namespace RealWorldUnitTest.Web.Models
 {
     public class Product
     {
